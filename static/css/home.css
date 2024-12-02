@@ -1,0 +1,105 @@
+.loan-predict{
+  width:90%;
+  margin:auto auto;
+  margin-top:10px;
+  padding:5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.result-text{
+  text-align: center;
+  padding:10px;
+  font-size: 20px;
+  color:green;
+  font-weight: bold;
+}
+
+h4,.title-text{
+  text-align: center;
+  margin-top:10px;
+}
+th{
+  color:#4A8B48;
+  font-size:15px;
+}
+
+td{
+  color:#424251;
+  font-size:14px;
+  font-weight: bold;
+}
+
+table, th, td {
+    border:1px solid grey;
+  }
+
+  .table-section{
+    margin-top:150px;
+    border-radius: 8px;
+
+  }
+
+ 
+  .table-title{
+    text-align: center;
+    padding:10px;
+    color:white;
+    font-weight: 800;
+    font-stretch: expanded;
+    font-size:20px;
+    background-color: #DA70D6;
+    
+  }
+
+  .form-section{
+    width:60%;
+    margin:auto;
+    border-style:solid #7ADC89;
+    padding:25px 20px;
+    font-size:14px;
+    color:blue;
+    background-color: #7ADC89;
+    
+  }
+
+  input[type=submit]{
+    width:100%;
+    text-align: center;
+    border:none;
+    padding:5px 3px;
+    font-size: 16px;
+  }
+
+  input[type=text]{
+    font-size:14px;
+  }
+  input[type=number]{
+    font-size:14px;
+  }
+
+  input[type=select]{
+    font-size:14px;
+  }
+
+  input[type=select>option]{
+    font-size:14px;
+  }
+
+
+  select>option{
+    font-size: 14px;
+  }
+  .form-control, .form-select{
+    height:32px;
+  }
+
+  .hero-text{
+    font-size:20px;
+    font-weight: 800;
+    margin-bottom:5px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+
