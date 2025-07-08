@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-This project is the implementation of my Master’s Thesis, aimed at automating the home loan eligibility and amount prediction system using Machine Learning. The primary objective was to analyze and model real-world loan application data from **Rastriya Banijya Bank Limited (RBBL)**, Nepal’s largest commercial bank, and develop an intelligent system that helps in predicting the suitable loan amount based on client information.
+This project is the implementation of my Master’s Thesis, aimed at automating the home loan eligibility and loan approval prediction system using Machine Learning. The primary objective was to analyze and model real-world loan application data from **Rastriya Banijya Bank Limited (RBBL)**, Nepal’s largest commercial bank, and develop an intelligent system that helps in predicting the loan approval/rejection based on client information.
 
 ---
 
