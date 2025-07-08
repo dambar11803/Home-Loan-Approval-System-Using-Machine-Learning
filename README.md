@@ -30,10 +30,20 @@ This project is the implementation of my Master’s Thesis, aimed at automating 
 - Random Forest Regression
 - K-Nearest Neighbors Regression (KNN)
 
-### 🎯 Model Evaluation
-- Performance evaluated using **R² Score** and **Mean Squared Error (MSE)**
-- **Best Model:** Random Forest Regressor
-- **Achieved Accuracy:** **96%**
+## 🧪 Model Evaluation Methods
+
+### 1. 🔁 Cross-Validation
+- **10-Fold Cross-Validation** was performed to ensure the model's performance is consistent across different data subsets.
+- It reduces the risk of overfitting and provides a more robust performance estimate.
+- 
+- ### 2. 📈 ROC Curve & AUC
+- For the classification task (Loan Status), the **Receiver Operating Characteristic (ROC) Curve** was plotted.
+- The **Area Under Curve (AUC)** was used to measure the model’s ability to distinguish between classes.
+- AUC closer to **1.0** indicates excellent model performance.
+
+- ### 3. ✅ Confusion Matrix (for binary loan approval classification)
+Although the main task is regression, a **classification task** (Loan Approved vs. Not Approved) was also considered.
+- A **confusion matrix** was generated to evaluate classification-based decision thresholds for approved/rejected status.
 
 ---
 
